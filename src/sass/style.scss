@@ -1,9 +1,28 @@
 @import "font";
+@import "layout/header";
+@import "layout/home";
+@import "layout/album";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  list-style: none;
+  text-decoration: none;
 
-.test{
-  background-color: black;
-  h2{
-    font-family: $main-font;
-    color: green;
-  }
+}
+
+body{
+  background-image: url("img/artist.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.album--cover{
+  width: 350px;
+  height: 350px;
+  background-image: url("img/cover.png");
+  background-size: cover;
+
 }

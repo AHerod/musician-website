@@ -1,2 +1,12 @@
-@import  url("https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=latin-ext");
+@font-face {
+  font-family: 'nocturnalregular';
+  src: url('nocturnal_demo-webfont.woff2') format('woff2'),
+  url('nocturnal_demo-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 $main-font: "font-family: 'Montserrat', sans-serif";
+$logo-font:  'nocturnalregular';
+
+
