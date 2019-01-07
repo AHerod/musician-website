@@ -16,6 +16,7 @@
       text-transform: uppercase;
       padding: 15px;
       &:hover {
+        cursor: pointer;
         animation: color-change .6s;
         animation-fill-mode: forwards;
 
