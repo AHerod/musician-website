@@ -1,9 +1,8 @@
-
+@import "../font";
 .news {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  align-items: center;
   padding-top: 80px;
   width: 1000px;
 
@@ -27,10 +26,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  font-family: $main-font;
 
   .tile {
     width: 45%;
-    background: rgba(0,0,0,.8);
+    background: rgba(237,221,64,.07);
     padding: 20px;
     margin-top: 10px;
     text-align: center;
@@ -49,6 +49,7 @@
     }
     h2{
       color: $main-color;
+      text-transform: uppercase;
     }
   }
 }

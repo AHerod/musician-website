@@ -16,6 +16,7 @@ class App extends Component {
                 <Home/>
                 <Album/>
                 <News/>
+                <Tour/>
             </div>
 
         );

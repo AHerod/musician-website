@@ -1,0 +1,70 @@
+@import "../font";
+@import "../utils/mix";
+.tour{
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  width: 1000px;
+  h1 {
+    font-size: 3em;
+    border-bottom: 5px solid $main-color;
+  }
+}
+.wrapper {
+
+
+}
+.concert{
+  display: grid;
+  grid-template-columns: 20% 50% 30%;
+  padding-top: 70px;
+}
+
+.box {
+  background: none;
+  color: #fff;
+  border-radius: 5px;
+  padding:  5px 0;
+  font-size: 1.2em;
+  font-family: $main-font;
+
+
+}
+
+.city{
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+.place {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  color: $main-color;
+}
+.c {
+  display: none;
+}
+.day {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  font-size: 1.7em;
+
+}
+.month {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  text-transform: uppercase;
+}
+.f {
+  grid-column: 3 / 4;
+  grid-row: 1 / 3;
+}
+
+.button--tickets{
+  width: 100%;
+  height: 80px;
+  background: $main-color;
+  border: none;
+  outline: none;
+  font-size: 1em;
+}
